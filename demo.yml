@@ -1,0 +1,40 @@
+--- 
+database: 
+  checkConnectionWhileIdle: false
+  driverClass: oracle.jdbc.driver.OracleDriver
+  evictionInterval: 10s
+  maxSize: 32
+  maxWaitForConnection: 1s
+  minIdleTime: "1 minute"
+  minSize: 8
+  password: admin
+  properties: 
+    charSet: UTF-8
+  url: "jdbc:oracle:thin:@localhost:1521:xe"
+  user: system
+  validationQuery: "SELECT 1 from dual"
+defaultName: Stranger
+server: 
+  adminConnectors: 
+    - 
+      port: 8085
+      type: http
+    - 
+      keyStorePassword: example
+      keyStorePath: example.keystore
+      port: 8444
+      type: https
+      validateCerts: false
+  adminMaxThreads: 64
+  adminMinThreads: 1
+  applicationConnectors: 
+    - 
+      port: 8083
+      type: http
+    - 
+      keyStorePassword: example
+      keyStorePath: example.keystore
+      port: 8443
+      type: https
+      validateCerts: false
+template: "Hello, %s!"

@@ -1,0 +1,609 @@
+INFO  [2014-09-27 13:27:30,222] io.dropwizard.server.ServerFactory: Starting DemoApplication
+INFO  [2014-09-27 13:27:30,458] org.eclipse.jetty.setuid.SetUIDListener: Opened application@11d6571{HTTP/1.1}{0.0.0.0:8080}
+INFO  [2014-09-27 13:27:30,458] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@1835480{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2014-09-27 13:27:30,462] org.eclipse.jetty.server.Server: jetty-9.0.7.v20131107
+INFO  [2014-09-27 13:27:30,708] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.18.1 02/19/2014 03:28 AM'
+INFO  [2014-09-27 13:27:30,866] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     /demo (com.local.dropwizard.demo.resources.DemoResource)
+
+INFO  [2014-09-27 13:27:31,260] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@1cee388{/,null,AVAILABLE}
+INFO  [2014-09-27 13:27:31,262] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+INFO  [2014-09-27 13:27:31,302] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@1a4e343{/,null,AVAILABLE}
+INFO  [2014-09-27 13:27:31,432] org.eclipse.jetty.server.ServerConnector: Started application@11d6571{HTTP/1.1}{0.0.0.0:8080}
+INFO  [2014-09-27 13:27:31,435] org.eclipse.jetty.server.ServerConnector: Started admin@1835480{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2014-09-27 15:08:18,544] io.dropwizard.server.ServerFactory: Starting DemoApplication
+INFO  [2014-09-27 15:08:19,041] org.eclipse.jetty.setuid.SetUIDListener: Opened application@11ef78d{HTTP/1.1}{0.0.0.0:8080}
+INFO  [2014-09-27 15:08:19,041] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@6c1270{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2014-09-27 15:08:19,048] org.eclipse.jetty.server.Server: jetty-9.0.7.v20131107
+INFO  [2014-09-27 15:08:19,468] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.18.1 02/19/2014 03:28 AM'
+INFO  [2014-09-27 15:08:19,841] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     /demo (com.local.dropwizard.demo.resources.DemoResource)
+
+INFO  [2014-09-27 15:08:20,345] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@b14cb9{/,null,AVAILABLE}
+INFO  [2014-09-27 15:08:20,347] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+INFO  [2014-09-27 15:08:20,361] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@1f417a7{/,null,AVAILABLE}
+INFO  [2014-09-27 15:08:20,588] org.eclipse.jetty.server.ServerConnector: Started application@11ef78d{HTTP/1.1}{0.0.0.0:8080}
+INFO  [2014-09-27 15:08:20,594] org.eclipse.jetty.server.ServerConnector: Started admin@6c1270{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2014-09-27 15:08:53,249] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 15:08:55,616] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 15:08:57,391] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 15:08:58,824] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 15:11:05,382] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 15:11:07,465] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 15:12:00,970] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 15:12:02,445] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 15:12:05,602] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 15:12:07,264] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 15:12:08,631] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 15:12:09,803] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 15:12:10,908] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 15:12:11,949] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 15:12:12,964] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 15:12:14,038] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 15:12:15,108] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 15:12:16,240] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 15:12:17,325] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 15:12:18,368] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 15:12:19,201] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 15:12:19,984] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 17:59:17,064] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 17:59:20,244] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 17:59:20,283] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 17:59:21,130] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 17:59:23,341] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 17:59:49,063] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 17:59:59,761] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:00:03,776] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:00:16,256] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:00:30,411] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:00:33,846] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:00:38,879] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:00:42,310] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:02:36,876] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:02:39,590] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:02:40,615] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:02:41,474] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:02:43,265] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:02:44,069] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:02:44,904] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:03:16,819] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:03:18,694] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:03:19,647] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:03:20,323] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:03:21,234] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:03:21,968] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:03:22,574] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:03:23,482] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:03:24,486] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:03:25,460] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:03,469] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:04,120] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:04,551] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:04,869] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:05,132] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:05,407] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:05,646] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:05,875] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:06,093] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:06,333] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:06,571] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:06,806] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:07,027] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:07,248] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:07,503] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:07,737] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:07,995] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:08,146] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:08,360] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:08,672] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:08,901] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:09,112] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:09,320] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:09,530] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:09,746] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:09,975] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:10,212] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:10,665] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:10,894] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:11,133] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:11,364] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:11,569] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:11,766] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:11,948] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:47,719] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:47,962] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:48,201] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:48,440] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:48,689] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:48,919] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:49,154] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:49,366] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:49,787] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:50,093] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:50,671] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:50,879] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:51,118] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:51,335] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:51,557] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:51,786] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:51,996] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:52,203] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:52,455] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:52,683] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:52,913] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:53,161] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:53,413] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:53,624] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:53,857] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:54,115] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:54,366] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:54,593] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:54,863] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:55,104] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:55,352] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:55,609] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:55,858] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:56,097] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:56,327] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:56,576] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:56,844] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:57,104] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:57,321] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:57,540] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:57,782] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:58,020] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:58,246] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:58,476] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:58,739] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:58,978] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:59,224] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:59,449] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:59,680] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:11:59,927] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:00,139] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:00,372] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:00,613] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:00,819] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:01,035] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:01,273] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:01,527] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:01,782] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:02,030] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:02,248] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:02,500] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:02,768] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:03,008] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:03,255] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:03,463] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:03,712] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:03,963] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:04,224] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:04,458] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:04,709] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:04,939] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:05,215] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:05,975] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:06,274] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:06,523] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:06,781] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:07,008] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:07,288] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:07,549] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:07,786] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:08,051] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:08,287] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:08,543] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:08,794] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:09,050] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:09,280] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:09,538] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:09,787] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:10,022] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:10,252] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:10,504] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:10,710] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:10,983] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:11,221] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:11,470] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:11,719] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:11,958] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:12,197] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:12,427] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:12,666] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:12,905] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:13,192] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:13,424] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:13,670] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:13,943] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:14,347] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:14,664] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:14,885] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:15,131] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:15,394] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:15,713] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:15,879] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:16,140] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:16,397] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:16,627] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:16,876] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:17,214] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:17,494] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:17,734] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:18,032] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:18,271] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:18,549] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:18,806] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:19,066] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:19,324] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:19,583] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:19,843] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:20,067] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:20,342] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:20,589] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:20,893] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:33,786] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:34,008] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:34,246] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:34,497] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:34,730] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:34,979] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:35,220] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:35,427] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:35,665] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:35,914] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:36,153] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:36,375] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:36,621] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:36,851] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:37,099] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:37,369] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:37,606] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:37,837] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:38,103] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:38,437] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:38,753] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:39,016] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:39,288] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:39,539] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:39,933] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:40,187] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:40,445] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:40,704] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:41,062] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:41,323] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:41,572] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:41,791] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:42,039] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:42,288] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:42,557] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:43,533] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:43,750] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:44,002] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:44,220] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:44,439] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:44,678] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:44,911] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:45,135] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:45,374] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:45,581] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:45,823] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:46,050] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:46,289] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:46,559] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:46,797] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:47,045] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:47,294] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:47,577] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:47,813] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:48,070] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:48,302] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:48,528] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:48,789] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:49,029] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:49,265] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:49,525] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:49,775] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:50,352] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:50,612] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:50,851] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:51,105] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:51,339] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:51,585] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:51,836] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:52,064] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:52,334] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:52,594] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:52,830] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:53,080] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:53,338] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:53,616] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:53,847] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:54,118] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:54,363] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:54,581] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:54,833] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:55,084] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:55,344] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:55,560] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:55,799] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:56,037] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:56,274] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:56,515] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:56,764] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:57,024] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:57,292] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:57,540] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:57,771] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:58,019] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:58,273] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:58,497] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:58,752] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:59,013] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:59,260] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:59,501] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:12:59,772] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:00,008] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:00,257] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:00,521] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:00,777] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:01,004] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:01,244] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:01,485] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:01,763] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:01,982] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:02,207] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:02,422] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:02,668] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:02,898] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:03,136] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:03,385] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:03,623] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:03,842] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:04,092] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:04,340] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:04,589] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:04,868] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:05,097] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:05,337] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:05,595] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:05,844] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:06,073] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:06,314] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:06,550] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:06,811] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:07,040] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:07,277] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:07,507] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:07,736] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:08,014] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:08,243] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:08,523] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:08,750] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:08,999] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:09,228] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:09,458] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:09,707] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:09,959] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:10,195] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:10,460] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:10,692] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-09-27 18:13:11,015] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-10-04 08:21:43,593] io.dropwizard.server.ServerFactory: Starting DemoApplication
+INFO  [2014-10-04 08:21:43,723] org.eclipse.jetty.setuid.SetUIDListener: Opened application@11ef78d{HTTP/1.1}{0.0.0.0:8080}
+INFO  [2014-10-04 08:21:43,724] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@6c1270{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2014-10-04 08:21:43,728] org.eclipse.jetty.server.Server: jetty-9.0.7.v20131107
+INFO  [2014-10-04 08:21:43,929] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.18.1 02/19/2014 03:28 AM'
+INFO  [2014-10-04 08:21:44,077] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     /demo (com.local.dropwizard.demo.resources.DemoResource)
+
+INFO  [2014-10-04 08:21:44,449] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@b14cb9{/,null,AVAILABLE}
+INFO  [2014-10-04 08:21:44,452] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+INFO  [2014-10-04 08:21:44,468] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@1f417a7{/,null,AVAILABLE}
+INFO  [2014-10-04 08:21:44,539] org.eclipse.jetty.server.ServerConnector: Started application@11ef78d{HTTP/1.1}{0.0.0.0:8080}
+INFO  [2014-10-04 08:21:44,541] org.eclipse.jetty.server.ServerConnector: Started admin@6c1270{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2014-10-04 08:22:27,393] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-10-04 08:33:35,478] io.dropwizard.server.ServerFactory: Starting DemoApplication
+INFO  [2014-10-04 08:33:35,592] org.eclipse.jetty.setuid.SetUIDListener: Opened application@1316aeb{HTTP/1.1}{0.0.0.0:9090}
+INFO  [2014-10-04 08:33:35,592] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@a3a905{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2014-10-04 08:33:35,596] org.eclipse.jetty.server.Server: jetty-9.0.7.v20131107
+INFO  [2014-10-04 08:33:35,795] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.18.1 02/19/2014 03:28 AM'
+INFO  [2014-10-04 08:33:35,993] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     /demo (com.local.dropwizard.demo.resources.DemoResource)
+
+INFO  [2014-10-04 08:33:36,422] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@1a902e7{/,null,AVAILABLE}
+INFO  [2014-10-04 08:33:36,425] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+INFO  [2014-10-04 08:33:36,434] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@1b4c359{/,null,AVAILABLE}
+INFO  [2014-10-04 08:33:36,537] org.eclipse.jetty.server.ServerConnector: Started application@1316aeb{HTTP/1.1}{0.0.0.0:9090}
+INFO  [2014-10-04 08:33:36,539] org.eclipse.jetty.server.ServerConnector: Started admin@a3a905{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2014-10-04 08:34:17,628] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-10-04 08:34:22,758] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-10-04 08:34:24,553] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+INFO  [2014-10-04 08:37:52,451] io.dropwizard.server.ServerFactory: Starting DemoApplication
+INFO  [2014-10-04 08:37:53,530] io.dropwizard.jetty.HttpsConnectorFactory: Supported protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+INFO  [2014-10-04 08:37:53,530] io.dropwizard.jetty.HttpsConnectorFactory: Supported cipher suites: [TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_RC4_128_SHA, TLS_ECDHE_RSA_WITH_RC4_128_SHA, SSL_RSA_WITH_RC4_128_SHA, TLS_ECDH_ECDSA_WITH_RC4_128_SHA, TLS_ECDH_RSA_WITH_RC4_128_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_RC4_128_MD5, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_RC4_128_SHA, SSL_DH_anon_WITH_RC4_128_MD5, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_RC4_40_MD5, SSL_DH_anon_EXPORT_WITH_RC4_40_MD5, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_KRB5_WITH_RC4_128_SHA, TLS_KRB5_WITH_RC4_128_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_RC4_40_SHA, TLS_KRB5_EXPORT_WITH_RC4_40_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+INFO  [2014-10-04 08:37:53,576] org.eclipse.jetty.setuid.SetUIDListener: Opened application@bca85b{HTTP/1.1}{0.0.0.0:9090}
+INFO  [2014-10-04 08:37:53,577] org.eclipse.jetty.setuid.SetUIDListener: Opened application@1d0911a{SSL-HTTP/1.1}{0.0.0.0:8443}
+INFO  [2014-10-04 08:37:53,577] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@1e91545{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2014-10-04 08:37:53,581] org.eclipse.jetty.server.Server: jetty-9.0.7.v20131107
+WARN  [2014-10-04 08:37:53,639] org.eclipse.jetty.util.component.AbstractLifeCycle: FAILED SslContextFactory@5c08c8(example.keystore,example.keystore): java.io.FileNotFoundException: F:\RIV_2012\STS_WORKSPACE\dropwizard\example.keystore (The system cannot find the file specified)
+! java.io.FileNotFoundException: F:\RIV_2012\STS_WORKSPACE\dropwizard\example.keystore (The system cannot find the file specified)
+! at java.io.FileInputStream.open(Native Method) ~[na:1.8.0_11]
+! at java.io.FileInputStream.<init>(Unknown Source) ~[na:1.8.0_11]
+! at org.eclipse.jetty.util.resource.FileResource.getInputStream(FileResource.java:302) ~[jetty-util-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.util.security.CertificateUtils.getKeyStore(CertificateUtils.java:43) ~[jetty-util-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.util.ssl.SslContextFactory.loadKeyStore(SslContextFactory.java:863) ~[jetty-util-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.util.ssl.SslContextFactory.doStart(SslContextFactory.java:269) ~[jetty-util-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:69) [jetty-util-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:118) [jetty-util-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.server.Server.start(Server.java:342) [jetty-server-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:100) [jetty-util-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:60) [jetty-server-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.server.Server.doStart(Server.java:290) [jetty-server-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:69) [jetty-util-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at io.dropwizard.cli.ServerCommand.run(ServerCommand.java:43) [dropwizard-core-0.7.0.jar:0.7.0]
+! at io.dropwizard.cli.EnvironmentCommand.run(EnvironmentCommand.java:43) [dropwizard-core-0.7.0.jar:0.7.0]
+! at io.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:76) [dropwizard-core-0.7.0.jar:0.7.0]
+! at io.dropwizard.cli.Cli.run(Cli.java:70) [dropwizard-core-0.7.0.jar:0.7.0]
+! at io.dropwizard.Application.run(Application.java:72) [dropwizard-core-0.7.0.jar:0.7.0]
+! at com.local.dropwizard.demo.application.DemoApplication.main(DemoApplication.java:14) [classes/:na]
+WARN  [2014-10-04 08:37:53,639] org.eclipse.jetty.util.component.AbstractLifeCycle: FAILED org.eclipse.jetty.server.Server@111a194: java.io.FileNotFoundException: F:\RIV_2012\STS_WORKSPACE\dropwizard\example.keystore (The system cannot find the file specified)
+! java.io.FileNotFoundException: F:\RIV_2012\STS_WORKSPACE\dropwizard\example.keystore (The system cannot find the file specified)
+! at java.io.FileInputStream.open(Native Method) ~[na:1.8.0_11]
+! at java.io.FileInputStream.<init>(Unknown Source) ~[na:1.8.0_11]
+! at org.eclipse.jetty.util.resource.FileResource.getInputStream(FileResource.java:302) ~[jetty-util-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.util.security.CertificateUtils.getKeyStore(CertificateUtils.java:43) ~[jetty-util-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.util.ssl.SslContextFactory.loadKeyStore(SslContextFactory.java:863) ~[jetty-util-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.util.ssl.SslContextFactory.doStart(SslContextFactory.java:269) ~[jetty-util-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:69) ~[jetty-util-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:118) ~[jetty-util-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.server.Server.start(Server.java:342) ~[jetty-server-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:100) ~[jetty-util-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:60) ~[jetty-server-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.server.Server.doStart(Server.java:290) ~[jetty-server-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:69) ~[jetty-util-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at io.dropwizard.cli.ServerCommand.run(ServerCommand.java:43) [dropwizard-core-0.7.0.jar:0.7.0]
+! at io.dropwizard.cli.EnvironmentCommand.run(EnvironmentCommand.java:43) [dropwizard-core-0.7.0.jar:0.7.0]
+! at io.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:76) [dropwizard-core-0.7.0.jar:0.7.0]
+! at io.dropwizard.cli.Cli.run(Cli.java:70) [dropwizard-core-0.7.0.jar:0.7.0]
+! at io.dropwizard.Application.run(Application.java:72) [dropwizard-core-0.7.0.jar:0.7.0]
+! at com.local.dropwizard.demo.application.DemoApplication.main(DemoApplication.java:14) [classes/:na]
+ERROR [2014-10-04 08:37:53,640] io.dropwizard.cli.ServerCommand: Unable to start server, shutting down
+! java.io.FileNotFoundException: F:\RIV_2012\STS_WORKSPACE\dropwizard\example.keystore (The system cannot find the file specified)
+! at java.io.FileInputStream.open(Native Method) ~[na:1.8.0_11]
+! at java.io.FileInputStream.<init>(Unknown Source) ~[na:1.8.0_11]
+! at org.eclipse.jetty.util.resource.FileResource.getInputStream(FileResource.java:302) ~[jetty-util-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.util.security.CertificateUtils.getKeyStore(CertificateUtils.java:43) ~[jetty-util-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.util.ssl.SslContextFactory.loadKeyStore(SslContextFactory.java:863) ~[jetty-util-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.util.ssl.SslContextFactory.doStart(SslContextFactory.java:269) ~[jetty-util-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:69) ~[jetty-util-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:118) ~[jetty-util-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.server.Server.start(Server.java:342) ~[jetty-server-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:100) ~[jetty-util-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:60) ~[jetty-server-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.server.Server.doStart(Server.java:290) ~[jetty-server-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:69) ~[jetty-util-9.0.7.v20131107.jar:9.0.7.v20131107]
+! at io.dropwizard.cli.ServerCommand.run(ServerCommand.java:43) ~[dropwizard-core-0.7.0.jar:0.7.0]
+! at io.dropwizard.cli.EnvironmentCommand.run(EnvironmentCommand.java:43) [dropwizard-core-0.7.0.jar:0.7.0]
+! at io.dropwizard.cli.ConfiguredCommand.run(ConfiguredCommand.java:76) [dropwizard-core-0.7.0.jar:0.7.0]
+! at io.dropwizard.cli.Cli.run(Cli.java:70) [dropwizard-core-0.7.0.jar:0.7.0]
+! at io.dropwizard.Application.run(Application.java:72) [dropwizard-core-0.7.0.jar:0.7.0]
+! at com.local.dropwizard.demo.application.DemoApplication.main(DemoApplication.java:14) [classes/:na]
+INFO  [2014-10-04 08:40:48,471] io.dropwizard.server.ServerFactory: Starting DemoApplication
+INFO  [2014-10-04 08:40:49,191] io.dropwizard.jetty.HttpsConnectorFactory: Supported protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+INFO  [2014-10-04 08:40:49,191] io.dropwizard.jetty.HttpsConnectorFactory: Supported cipher suites: [TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_RC4_128_SHA, TLS_ECDHE_RSA_WITH_RC4_128_SHA, SSL_RSA_WITH_RC4_128_SHA, TLS_ECDH_ECDSA_WITH_RC4_128_SHA, TLS_ECDH_RSA_WITH_RC4_128_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_RC4_128_MD5, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_RC4_128_SHA, SSL_DH_anon_WITH_RC4_128_MD5, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_RC4_40_MD5, SSL_DH_anon_EXPORT_WITH_RC4_40_MD5, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_KRB5_WITH_RC4_128_SHA, TLS_KRB5_WITH_RC4_128_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_RC4_40_SHA, TLS_KRB5_EXPORT_WITH_RC4_40_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+INFO  [2014-10-04 08:40:49,240] org.eclipse.jetty.setuid.SetUIDListener: Opened application@bca85b{HTTP/1.1}{0.0.0.0:9090}
+INFO  [2014-10-04 08:40:49,240] org.eclipse.jetty.setuid.SetUIDListener: Opened application@1d0911a{SSL-HTTP/1.1}{0.0.0.0:8443}
+INFO  [2014-10-04 08:40:49,241] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@1e91545{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2014-10-04 08:40:49,245] org.eclipse.jetty.server.Server: jetty-9.0.7.v20131107
+INFO  [2014-10-04 08:40:49,537] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.18.1 02/19/2014 03:28 AM'
+INFO  [2014-10-04 08:40:49,686] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     /demo (com.local.dropwizard.demo.resources.DemoResource)
+
+INFO  [2014-10-04 08:40:50,046] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@ad8b7d{/,null,AVAILABLE}
+INFO  [2014-10-04 08:40:50,048] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+INFO  [2014-10-04 08:40:50,058] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@1c4715d{/,null,AVAILABLE}
+INFO  [2014-10-04 08:40:50,080] org.eclipse.jetty.server.ServerConnector: Started application@bca85b{HTTP/1.1}{0.0.0.0:9090}
+INFO  [2014-10-04 08:40:50,085] org.eclipse.jetty.server.ServerConnector: Started application@1d0911a{SSL-HTTP/1.1}{0.0.0.0:8443}
+INFO  [2014-10-04 08:40:50,088] org.eclipse.jetty.server.ServerConnector: Started admin@1e91545{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2014-10-04 08:41:05,097] com.local.dropwizard.demo.resources.DemoResource: This is logggggggggggggggggggggggggggggggggggggggggggggggggggg
+WARN  [2014-10-04 08:43:09,319] org.eclipse.jetty.http.HttpParser: BadMessage: 400 Illegal character for HttpChannelOverHttp@aced49{r=0,a=IDLE,uri=-}
+WARN  [2014-10-04 08:43:09,319] org.eclipse.jetty.http.HttpParser: BadMessage: 400 Illegal character for HttpChannelOverHttp@13dc939{r=0,a=IDLE,uri=-}
+WARN  [2014-10-04 08:43:10,641] org.eclipse.jetty.http.HttpParser: BadMessage: 400 Illegal character for HttpChannelOverHttp@30035b{r=0,a=IDLE,uri=-}
+WARN  [2014-10-04 08:43:10,649] org.eclipse.jetty.http.HttpParser: BadMessage: 400 Illegal character for HttpChannelOverHttp@6b1fec{r=0,a=IDLE,uri=-}
+WARN  [2014-10-04 08:43:10,653] org.eclipse.jetty.http.HttpParser: BadMessage: 400 Illegal character for HttpChannelOverHttp@f7e1ad{r=0,a=IDLE,uri=-}
+WARN  [2014-10-04 08:43:10,656] org.eclipse.jetty.http.HttpParser: BadMessage: 400 Illegal character for HttpChannelOverHttp@1fa37ee{r=0,a=IDLE,uri=-}
+WARN  [2014-10-04 08:43:10,779] org.eclipse.jetty.http.HttpParser: BadMessage: 400 Illegal character for HttpChannelOverHttp@1c5a249{r=0,a=IDLE,uri=-}
+WARN  [2014-10-04 08:43:10,792] org.eclipse.jetty.http.HttpParser: BadMessage: 400 Illegal character for HttpChannelOverHttp@c8682b{r=0,a=IDLE,uri=-}
+WARN  [2014-10-04 08:43:10,806] org.eclipse.jetty.http.HttpParser: BadMessage: 400 Illegal character for HttpChannelOverHttp@548639{r=0,a=IDLE,uri=-}
+WARN  [2014-10-04 08:43:10,810] org.eclipse.jetty.http.HttpParser: BadMessage: 400 Illegal character for HttpChannelOverHttp@c73dd5{r=0,a=IDLE,uri=-}
+WARN  [2014-10-04 08:43:15,818] org.eclipse.jetty.http.HttpParser: BadMessage: 400 Illegal character for HttpChannelOverHttp@15615d7{r=0,a=IDLE,uri=-}
+WARN  [2014-10-04 08:43:15,822] org.eclipse.jetty.http.HttpParser: BadMessage: 400 Illegal character for HttpChannelOverHttp@1caeb96{r=0,a=IDLE,uri=-}
+WARN  [2014-10-04 08:43:15,826] org.eclipse.jetty.http.HttpParser: BadMessage: 400 Illegal character for HttpChannelOverHttp@15851b5{r=0,a=IDLE,uri=-}
+WARN  [2014-10-04 08:43:15,831] org.eclipse.jetty.http.HttpParser: BadMessage: 400 Illegal character for HttpChannelOverHttp@916311{r=0,a=IDLE,uri=-}
+WARN  [2014-10-04 08:43:45,838] org.eclipse.jetty.http.HttpParser: BadMessage: 400 Illegal character for HttpChannelOverHttp@1475737{r=0,a=IDLE,uri=-}
+WARN  [2014-10-04 08:43:45,843] org.eclipse.jetty.http.HttpParser: BadMessage: 400 Illegal character for HttpChannelOverHttp@b59d90{r=0,a=IDLE,uri=-}
+WARN  [2014-10-04 08:43:45,847] org.eclipse.jetty.http.HttpParser: BadMessage: 400 Illegal character for HttpChannelOverHttp@1841f6f{r=0,a=IDLE,uri=-}
+WARN  [2014-10-04 08:43:45,852] org.eclipse.jetty.http.HttpParser: BadMessage: 400 Illegal character for HttpChannelOverHttp@13265fc{r=0,a=IDLE,uri=-}
+INFO  [2014-10-04 10:06:01,828] io.dropwizard.server.ServerFactory: Starting DemoApplication
+INFO  [2014-10-04 10:06:03,785] io.dropwizard.jetty.HttpsConnectorFactory: Supported protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+INFO  [2014-10-04 10:06:03,785] io.dropwizard.jetty.HttpsConnectorFactory: Supported cipher suites: [TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_RC4_128_SHA, TLS_ECDHE_RSA_WITH_RC4_128_SHA, SSL_RSA_WITH_RC4_128_SHA, TLS_ECDH_ECDSA_WITH_RC4_128_SHA, TLS_ECDH_RSA_WITH_RC4_128_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_RC4_128_MD5, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_RC4_128_SHA, SSL_DH_anon_WITH_RC4_128_MD5, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_RC4_40_MD5, SSL_DH_anon_EXPORT_WITH_RC4_40_MD5, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_KRB5_WITH_RC4_128_SHA, TLS_KRB5_WITH_RC4_128_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_RC4_40_SHA, TLS_KRB5_EXPORT_WITH_RC4_40_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+INFO  [2014-10-04 10:06:03,968] org.eclipse.jetty.setuid.SetUIDListener: Opened application@bca85b{HTTP/1.1}{0.0.0.0:9090}
+INFO  [2014-10-04 10:06:03,969] org.eclipse.jetty.setuid.SetUIDListener: Opened application@1d0911a{SSL-HTTP/1.1}{0.0.0.0:8443}
+INFO  [2014-10-04 10:06:03,969] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@1e91545{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2014-10-04 10:06:04,018] org.eclipse.jetty.server.Server: jetty-9.0.7.v20131107
+INFO  [2014-10-04 10:06:04,975] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.18.1 02/19/2014 03:28 AM'
+INFO  [2014-10-04 10:06:05,348] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     /demo (com.local.dropwizard.demo.resources.DemoResource)
+
+INFO  [2014-10-04 10:06:05,890] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@ad8b7d{/,null,AVAILABLE}
+INFO  [2014-10-04 10:06:05,893] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+INFO  [2014-10-04 10:06:05,902] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@1c4715d{/,null,AVAILABLE}
+INFO  [2014-10-04 10:06:06,000] org.eclipse.jetty.server.ServerConnector: Started application@bca85b{HTTP/1.1}{0.0.0.0:9090}
+INFO  [2014-10-04 10:06:06,008] org.eclipse.jetty.server.ServerConnector: Started application@1d0911a{SSL-HTTP/1.1}{0.0.0.0:8443}
+INFO  [2014-10-04 10:06:06,011] org.eclipse.jetty.server.ServerConnector: Started admin@1e91545{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2014-12-06 12:21:28,643] io.dropwizard.server.ServerFactory: Starting DemoApplication
+INFO  [2014-12-06 12:21:30,663] io.dropwizard.jetty.HttpsConnectorFactory: Supported protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+INFO  [2014-12-06 12:21:30,663] io.dropwizard.jetty.HttpsConnectorFactory: Supported cipher suites: [TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_RC4_128_SHA, TLS_ECDHE_RSA_WITH_RC4_128_SHA, SSL_RSA_WITH_RC4_128_SHA, TLS_ECDH_ECDSA_WITH_RC4_128_SHA, TLS_ECDH_RSA_WITH_RC4_128_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_RC4_128_MD5, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_RC4_128_SHA, SSL_DH_anon_WITH_RC4_128_MD5, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_RC4_40_MD5, SSL_DH_anon_EXPORT_WITH_RC4_40_MD5, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_KRB5_WITH_RC4_128_SHA, TLS_KRB5_WITH_RC4_128_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_RC4_40_SHA, TLS_KRB5_EXPORT_WITH_RC4_40_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+INFO  [2014-12-06 12:21:30,813] org.eclipse.jetty.setuid.SetUIDListener: Opened application@bca85b{HTTP/1.1}{0.0.0.0:9090}
+INFO  [2014-12-06 12:21:30,813] org.eclipse.jetty.setuid.SetUIDListener: Opened application@1d0911a{SSL-HTTP/1.1}{0.0.0.0:8443}
+INFO  [2014-12-06 12:21:30,813] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@1e91545{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2014-12-06 12:21:30,833] org.eclipse.jetty.server.Server: jetty-9.0.7.v20131107
+INFO  [2014-12-06 12:21:31,513] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.18.1 02/19/2014 03:28 AM'
+INFO  [2014-12-06 12:21:31,825] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     /demo (com.local.dropwizard.demo.resources.DemoResource)
+
+INFO  [2014-12-06 12:21:32,365] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@ad8b7d{/,null,AVAILABLE}
+INFO  [2014-12-06 12:21:32,365] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+INFO  [2014-12-06 12:21:32,395] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@1c4715d{/,null,AVAILABLE}
+INFO  [2014-12-06 12:21:32,525] org.eclipse.jetty.server.ServerConnector: Started application@bca85b{HTTP/1.1}{0.0.0.0:9090}
+INFO  [2014-12-06 12:21:32,535] org.eclipse.jetty.server.ServerConnector: Started application@1d0911a{SSL-HTTP/1.1}{0.0.0.0:8443}
+INFO  [2014-12-06 12:21:32,535] org.eclipse.jetty.server.ServerConnector: Started admin@1e91545{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2014-12-06 12:23:56,414] io.dropwizard.server.ServerFactory: Starting DemoApplication
+INFO  [2014-12-06 12:23:57,294] io.dropwizard.jetty.HttpsConnectorFactory: Supported protocols: [SSLv2Hello, SSLv3, TLSv1, TLSv1.1, TLSv1.2]
+INFO  [2014-12-06 12:23:57,304] io.dropwizard.jetty.HttpsConnectorFactory: Supported cipher suites: [TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_RC4_128_SHA, TLS_ECDHE_RSA_WITH_RC4_128_SHA, SSL_RSA_WITH_RC4_128_SHA, TLS_ECDH_ECDSA_WITH_RC4_128_SHA, TLS_ECDH_RSA_WITH_RC4_128_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_RC4_128_MD5, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_RC4_128_SHA, SSL_DH_anon_WITH_RC4_128_MD5, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_RC4_40_MD5, SSL_DH_anon_EXPORT_WITH_RC4_40_MD5, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_KRB5_WITH_RC4_128_SHA, TLS_KRB5_WITH_RC4_128_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_RC4_40_SHA, TLS_KRB5_EXPORT_WITH_RC4_40_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+INFO  [2014-12-06 12:23:57,374] org.eclipse.jetty.setuid.SetUIDListener: Opened application@bca85b{HTTP/1.1}{0.0.0.0:9090}
+INFO  [2014-12-06 12:23:57,374] org.eclipse.jetty.setuid.SetUIDListener: Opened application@1d0911a{SSL-HTTP/1.1}{0.0.0.0:8443}
+INFO  [2014-12-06 12:23:57,374] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@1e91545{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2014-12-06 12:23:57,384] org.eclipse.jetty.server.Server: jetty-9.0.7.v20131107
+INFO  [2014-12-06 12:23:57,676] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.18.1 02/19/2014 03:28 AM'
+INFO  [2014-12-06 12:23:57,856] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     /demo (com.local.dropwizard.demo.resources.DemoResource)
+
+INFO  [2014-12-06 12:23:58,246] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@ad8b7d{/,null,AVAILABLE}
+INFO  [2014-12-06 12:23:58,246] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+INFO  [2014-12-06 12:23:58,266] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@1c4715d{/,null,AVAILABLE}
+INFO  [2014-12-06 12:23:58,306] org.eclipse.jetty.server.ServerConnector: Started application@bca85b{HTTP/1.1}{0.0.0.0:9090}
+INFO  [2014-12-06 12:23:58,306] org.eclipse.jetty.server.ServerConnector: Started application@1d0911a{SSL-HTTP/1.1}{0.0.0.0:8443}
+INFO  [2014-12-06 12:23:58,316] org.eclipse.jetty.server.ServerConnector: Started admin@1e91545{HTTP/1.1}{0.0.0.0:8081}
