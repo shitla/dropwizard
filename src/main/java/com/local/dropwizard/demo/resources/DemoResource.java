@@ -5,7 +5,6 @@ import io.dropwizard.auth.Auth;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 
 import javax.ws.rs.GET;
@@ -49,12 +48,8 @@ public class DemoResource {
 		final String value = String.format(template, name.or(defaultName));
 		RecordTest recordTest = null;
 		// recordTest= new RecordTest(2,"Shitla",getCurrentDate());
-		// dao.createRecord(recordTest);
-		System.out.println("Test");
-		// List<RecordTest> records = dao.getRecord();
-		// System.out.println(records);
 		// new DemoValidator().validate(name.or(defaultName));
-		LOG.info("This is logggggggggggggggggggggggggggggggggggggggggggggggggggg");
+		LOG.info("This is ");
 		return Response.status(Response.Status.OK).entity("Done")
 				.type(MediaType.APPLICATION_JSON).build();
 	}
@@ -87,12 +82,6 @@ public class DemoResource {
 		return dateFormat.format(today);
 
 	}
-
-	/*
-	 * public static void main(String ...strings){
-	 * System.out.println(getCurrentDate());
-	 * System.out.println(getCurrentDate()); }
-	 */
 
 	@GET
 	@Timed
