@@ -24,7 +24,6 @@ public class DemoApplication extends Application<DemoConfiguration> {
 	@Override
 	public void run(DemoConfiguration configuration, Environment environment)
 			throws Exception {
-		// TODO Auto-generated method stub
 
 		final DBIFactory factory = new DBIFactory();
 		final DBI jdbi = factory.build(environment,	configuration.getDataSourceFactory(), "oracle");
